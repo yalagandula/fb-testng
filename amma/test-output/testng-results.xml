@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="24" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="117276" started-at="2018-07-22T07:23:14Z" finished-at="2018-07-22T07:25:12Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="35666" started-at="2018-07-22T07:23:14Z" finished-at="2018-07-22T07:23:50Z">
+      <class name="dady.NewTest1">
+        <test-method status="PASS" signature="launch()[pri:1, instance:dady.NewTest1@5c7fa833]" name="launch" duration-ms="18301" started-at="2018-07-22T07:23:14Z" finished-at="2018-07-22T07:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="validate()[pri:2, instance:dady.NewTest1@5c7fa833]" name="validate" duration-ms="35" started-at="2018-07-22T07:23:33Z" finished-at="2018-07-22T07:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dady.NewTest1@5c7fa833]" name="login" duration-ms="16876" started-at="2018-07-22T07:23:33Z" depends-on-methods="dady.NewTest1.validate" finished-at="2018-07-22T07:23:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumarklr5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar@0302]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login1()[pri:4, instance:dady.NewTest1@5c7fa833]" name="login1" duration-ms="351" started-at="2018-07-22T07:23:50Z" finished-at="2018-07-22T07:23:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+      </class> <!-- dady.NewTest1 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="18621" started-at="2018-07-22T07:23:50Z" finished-at="2018-07-22T07:24:09Z">
+      <class name="dady.NewTest1">
+        <test-method status="PASS" signature="launch()[pri:1, instance:dady.NewTest1@5e3a8624]" name="launch" duration-ms="10501" started-at="2018-07-22T07:23:50Z" finished-at="2018-07-22T07:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="validate()[pri:2, instance:dady.NewTest1@5e3a8624]" name="validate" duration-ms="27" started-at="2018-07-22T07:24:00Z" finished-at="2018-07-22T07:24:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dady.NewTest1@5e3a8624]" name="login" duration-ms="5803" started-at="2018-07-22T07:24:01Z" depends-on-methods="dady.NewTest1.validate" finished-at="2018-07-22T07:24:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar@0302]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login1()[pri:4, instance:dady.NewTest1@5e3a8624]" name="login1" duration-ms="2262" started-at="2018-07-22T07:24:06Z" finished-at="2018-07-22T07:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+      </class> <!-- dady.NewTest1 -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="14801" started-at="2018-07-22T07:24:09Z" finished-at="2018-07-22T07:24:23Z">
+      <class name="dady.NewTest1">
+        <test-method status="PASS" signature="launch()[pri:1, instance:dady.NewTest1@7cd62f43]" name="launch" duration-ms="9153" started-at="2018-07-22T07:24:09Z" finished-at="2018-07-22T07:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="validate()[pri:2, instance:dady.NewTest1@7cd62f43]" name="validate" duration-ms="32" started-at="2018-07-22T07:24:18Z" finished-at="2018-07-22T07:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dady.NewTest1@7cd62f43]" name="login" duration-ms="3398" started-at="2018-07-22T07:24:18Z" depends-on-methods="dady.NewTest1.validate" finished-at="2018-07-22T07:24:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumarklr5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login1()[pri:4, instance:dady.NewTest1@7cd62f43]" name="login1" duration-ms="2197" started-at="2018-07-22T07:24:21Z" finished-at="2018-07-22T07:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+      </class> <!-- dady.NewTest1 -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="17093" started-at="2018-07-22T07:24:23Z" finished-at="2018-07-22T07:24:41Z">
+      <class name="dady.NewTest1">
+        <test-method status="PASS" signature="launch()[pri:1, instance:dady.NewTest1@1794d431]" name="launch" duration-ms="10338" started-at="2018-07-22T07:24:23Z" finished-at="2018-07-22T07:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="validate()[pri:2, instance:dady.NewTest1@1794d431]" name="validate" duration-ms="32" started-at="2018-07-22T07:24:34Z" finished-at="2018-07-22T07:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dady.NewTest1@1794d431]" name="login" duration-ms="4502" started-at="2018-07-22T07:24:34Z" depends-on-methods="dady.NewTest1.validate" finished-at="2018-07-22T07:24:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar@0302]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login1()[pri:4, instance:dady.NewTest1@1794d431]" name="login1" duration-ms="2196" started-at="2018-07-22T07:24:38Z" finished-at="2018-07-22T07:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+      </class> <!-- dady.NewTest1 -->
+    </test> <!-- Test4 -->
+    <test name="Test5" duration-ms="14740" started-at="2018-07-22T07:24:41Z" finished-at="2018-07-22T07:24:55Z">
+      <class name="dady.NewTest1">
+        <test-method status="PASS" signature="launch()[pri:1, instance:dady.NewTest1@1a968a59]" name="launch" duration-ms="10063" started-at="2018-07-22T07:24:41Z" finished-at="2018-07-22T07:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="validate()[pri:2, instance:dady.NewTest1@1a968a59]" name="validate" duration-ms="21" started-at="2018-07-22T07:24:51Z" finished-at="2018-07-22T07:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dady.NewTest1@1a968a59]" name="login" duration-ms="4439" started-at="2018-07-22T07:24:51Z" depends-on-methods="dady.NewTest1.validate" finished-at="2018-07-22T07:24:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumarklr5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login1()[pri:4, instance:dady.NewTest1@1a968a59]" name="login1" duration-ms="202" started-at="2018-07-22T07:24:55Z" finished-at="2018-07-22T07:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+      </class> <!-- dady.NewTest1 -->
+    </test> <!-- Test5 -->
+    <test name="Test6" duration-ms="16181" started-at="2018-07-22T07:24:55Z" finished-at="2018-07-22T07:25:12Z">
+      <class name="dady.NewTest1">
+        <test-method status="PASS" signature="launch()[pri:1, instance:dady.NewTest1@4dfa3a9d]" name="launch" duration-ms="11513" started-at="2018-07-22T07:24:55Z" finished-at="2018-07-22T07:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="validate()[pri:2, instance:dady.NewTest1@4dfa3a9d]" name="validate" duration-ms="35" started-at="2018-07-22T07:25:07Z" finished-at="2018-07-22T07:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dady.NewTest1@4dfa3a9d]" name="login" duration-ms="2422" started-at="2018-07-22T07:25:07Z" depends-on-methods="dady.NewTest1.validate" finished-at="2018-07-22T07:25:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login1()[pri:4, instance:dady.NewTest1@4dfa3a9d]" name="login1" duration-ms="2190" started-at="2018-07-22T07:25:09Z" finished-at="2018-07-22T07:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+      </class> <!-- dady.NewTest1 -->
+    </test> <!-- Test6 -->
+  </suite> <!-- Suite -->
+</testng-results>

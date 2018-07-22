@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+  <parameter name="ud"  value="kumarklr5@gmail.com"/>
+    <parameter name="pd"  value="kumar@0302"/>
+    <classes>
+      <class name="dady.NewTest1"/>
+    </classes>
+  </test> 
+  <test name="Test2">
+  <parameter name="ud"  value="kumar@gmail.com"/>
+    <parameter name="pd"  value="kumar@0302"/>
+    <classes>
+      <class name="dady.NewTest1"/>
+    </classes>
+  </test> 
+  <test name="Test3">
+  <parameter name="ud"  value="kumarklr5@gmail.com"/>
+    <parameter name="pd"  value="kumar"/>
+    <classes>
+      <class name="dady.NewTest1"/>
+    </classes>
+  </test> 
+  <test name="Test4">
+  <parameter name="ud"  value=""/>
+    <parameter name="pd"  value="kumar@0302"/>
+    <classes>
+      <class name="dady.NewTest1"/>
+    </classes>
+  </test> 
+  <test name="Test5">
+  <parameter name="ud"  value="kumarklr5@gmail.com"/>
+    <parameter name="pd"  value=""/>
+    <classes>
+      <class name="dady.NewTest1"/>
+    </classes>
+  </test> 
+  <test name="Test6">
+  <parameter name="ud"  value=""/>
+    <parameter name="pd"  value=""/>
+    <classes>
+      <class name="dady.NewTest1"/>
+    </classes>
+  </test> 
+</suite> 
